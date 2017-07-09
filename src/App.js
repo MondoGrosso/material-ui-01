@@ -11,7 +11,18 @@ import DatePickerExampleInternational from './DatePickerExampleInternational';
 import DialogExampleScrollable from './DialogExampleScrollable';
 import DividerExampleForm from './DividerExampleForm';
 import DrawerUndockedExample from './DrawerUndockedExample'
-
+import SvgIconExampleSimple from'./SvgIconExampleSimple';
+import SvgIconExampleIcons from "./SvgIconExampleIcons";
+import FontIconExampleSimple from './FontIconExampleSimple';//表示されない。。。
+import ListExampleSimple from './ListExampleSimple';
+import ListExampleNested from './ListExampleNested';
+import MenuExampleSecondary from './MenuExampleSecondary';//ChromeだとResearchの箇所が変。。。
+import IconMenuExampleNested from './IconMenuExampleNested';
+import PaperExampleRounded from './PaperExampleRounded';
+import RefreshIndicatorExampleLoading from './RefreshIndicatorExampleLoading';
+import LinearProgressExampleDeterminate from './LinearProgressExampleDeterminate';
+import SelectFieldExampleSimple from './SelectFieldExampleSimple';
+import SelectFieldExampleError from './SelectFieldExampleError';
 
 class App extends Component {
   constructor() {
@@ -43,6 +54,18 @@ class App extends Component {
         <DialogExampleScrollable />
         <DividerExampleForm />
         <DrawerUndockedExample />
+        <SvgIconExampleSimple />
+        <SvgIconExampleIcons />
+        <FontIconExampleSimple />
+        <ListExampleSimple />
+        <ListExampleNested />
+        <MenuExampleSecondary />
+        <IconMenuExampleNested />
+        <PaperExampleRounded />
+        <RefreshIndicatorExampleLoading />
+        <LinearProgressExampleDeterminate />
+        <SelectFieldExampleSimple />
+        <SelectFieldExampleError />
       </div>
     );
   }
