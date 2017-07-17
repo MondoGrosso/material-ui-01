@@ -23,6 +23,24 @@ import RefreshIndicatorExampleLoading from './RefreshIndicatorExampleLoading';
 import LinearProgressExampleDeterminate from './LinearProgressExampleDeterminate';
 import SelectFieldExampleSimple from './SelectFieldExampleSimple';
 import SelectFieldExampleError from './SelectFieldExampleError';
+import SelectFieldExampleMultiSelect from './SelectFieldExampleMultiSelect';
+import SliderExampleCustomScale from './SliderExampleCustomScale';
+import CheckboxExampleSimple from './CheckboxExampleSimple';
+import RadioButtonExampleSimple from './RadioButtonExampleSimple';
+import ToggleExampleSimple from './ToggleExampleSimple';
+import HorizontalLinearStepper from './HorizontalLinearStepper';
+import HorizontalNonLinearStepper from './HorizontalNonLinearStepper';
+import VerticalLinearStepper from './VerticalLinearStepper';
+import GranularControlStepper from './GranularControlStepper';
+import HorizontalTransition from './HorizontalTransition';
+import TableExampleControlled from './TableExampleControlled';
+import TableExampleComplex from  './TableExampleComplex';
+import TabsExampleSimple from './TabsExampleSimple';
+import TabsExampleIconText from './TabsExampleIconText';
+import TextFieldExampleSimple from './TextFieldExampleSimple';
+import TextFieldExampleError from './TextFieldExampleError';
+import TimePickerExampleSimple  from './TimePickerExampleSimple';
+import ToolbarExamplesSimple from './ToolbarExamplesSimple';
 
 class App extends Component {
   constructor() {
@@ -66,6 +84,24 @@ class App extends Component {
         <LinearProgressExampleDeterminate />
         <SelectFieldExampleSimple />
         <SelectFieldExampleError />
+        <SelectFieldExampleMultiSelect />
+        <SliderExampleCustomScale />
+        <CheckboxExampleSimple />
+        <RadioButtonExampleSimple />
+        <ToggleExampleSimple />
+        <HorizontalLinearStepper />
+        <HorizontalNonLinearStepper />
+        <VerticalLinearStepper />
+        <GranularControlStepper />
+        <HorizontalTransition />
+        <TableExampleControlled />
+        <TableExampleComplex />
+        <TabsExampleSimple />
+        <TabsExampleIconText />
+        <TextFieldExampleSimple />
+        <TextFieldExampleError />
+        <TimePickerExampleSimple />
+        <ToolbarExamplesSimple />
       </div>
     );
   }
